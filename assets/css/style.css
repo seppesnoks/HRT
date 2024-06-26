@@ -20,6 +20,10 @@ html {
   min-width: 100vh;
 }
 
+.weeje {
+  color: yellow;
+}
+
 
 
 
@@ -305,7 +309,58 @@ h1.temp {
 
 /* Information */
 #information {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.6);
   min-width: 100vh;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+#information .row{
+  padding-top: 5vh;
+  padding-right: 5vh;
+  margin-left: 5vh;
+}
+
+#information .information-img{
+  width: 100%;
+  opacity: 70%;
+}
+
+#information .text a {
+  color: var(--text-color)
+}
+
+
+#information .imp {
+  color: var(--primary-color);
+  text-decoration: solid;
+  font-weight: 700;
+}
+
+#information .text {
+  color: var(--text-color);
+  text-decoration: solid;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  #information {
+    width: auto;
+    min-width: none;
+  }
+
+  #information .dislay-none-mobile {
+    display: none;
+  }
+
+  #information .row {
+    padding-top: 5vh;
+    padding-right: 0vh;
+    margin-left: 0vh;
+  }
 }

@@ -45,7 +45,9 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
 
 
 </head>
@@ -53,13 +55,15 @@
 <body>
     <div class="navigation">
         <button class="btn btn-primary navigation-button" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars"></i></button>
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                class="fa-solid fa-bars"></i></button>
 
         <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
             aria-labelledby="offcanvasWithBothOptionsLabel">
-            <div class="offcanvas-header" >
+            <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Houthalens Racing Team</h5>
-                <button type="button" class="close-btn" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+                <button type="button" class="close-btn" data-bs-dismiss="offcanvas"><i
+                        class="fa-solid fa-xmark"></i></button>
             </div>
             <div class="offcanvas-body">
                 <div class="navigation-options-card">
@@ -74,24 +78,24 @@
                 </div>
                 <div class="weather-card card">
                     <div class="search">
-                      <input type="text" class="search-bar" placeholder="Search">
-                      <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em"
-                          width="1.5em" xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
-                          </path>
-                        </svg></button>
+                        <input type="text" class="search-bar" placeholder="Search">
+                        <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                                height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                                </path>
+                            </svg></button>
                     </div>
                     <div class="weather loading">
-                      <h2 class="city"></h2>
-                      <div class="flex">
-                        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
-                        <h1 class="temp">Loading...</h1>
-                      </div>
-                      <div class="text">Loading...</div>
-                      <!-- <div class="wind">Loading...</div> -->
+                        <h2 class="city"></h2>
+                        <div class="flex">
+                            <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+                            <h1 class="temp">Loading...</h1>
+                        </div>
+                        <div class="text">Loading...</div>
+                        <!-- <div class="wind">Loading...</div> -->
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
@@ -99,14 +103,54 @@
         <video src="assets/img/bg.mp4" autoplay playsinline muted id="video-background"></video>
         <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
             <h1 class="titillium-web-bold-italic d-flex justify-content-center text-center">Houthalens Racing Team</h1>
-          </div>
+        </div>
     </section>
     <section id="information">
-
+        <div class="" data-aos="fade-up">
+            <div class="row">
+                <div class="col dislay-none-mobile">
+                    <img class="information-img" src="assets/img/1.jpg">
+                </div>
+                <div class="col justify-content-center text-center">
+                    <p class="weeje">Hier komt zo een weer dingetje boven te staan maar moet de code voor geoptimzed
+                        worden
+                    </p>
+                    <p class="imp ">Tot EIND SEPTEMBER is er
+                        elke vrijdagavond clubavond vanaf 18u!!</p>
+                    <p class="text ">Het circuit is gelegen te
+                        Lakerheiweg, 3530 Houthalen. Best toegankelijke langs het Europark-industrieterrein. Het circuit
+                        is
+                        permanent toegankelijk van April tot November.
+                        <br>
+                        <br>
+                        De club telt momenteel een 45-tal leden, voornamelijk electro rijders en ook nog enkele nitro
+                        rijders.
+                        Onze club is voor jong en oud en staat hoofdzakelijk in het teken van FUN.
+                        <br>
+                        <br>
+                        Kom gerust eens dag zeggen op vrijdagavonden, dan hebben we onze CLUBAVONDEN vanaf 18u, IEDEREEN
+                        met
+                        of
+                        zonder autootje is welkom, ook bij regenweer!
+                        <br>
+                        <br>
+                        Ook organiseren we een aantal clubraces , worden er een aantal BK's gereden en zal er een
+                        tamiyacup
+                        doorgaan op HRT.
+                        Check zeker onze <a href="de_club.html">clubrace data</a> pagina voor meer info!
+                        <br>
+                        <br>
+                        Snuif de sfeer eens op zonder enige stress, geen telling die aanstaat en vooral een drankje en
+                        hapje
+                        erbij.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-    class="fa-solid fa-arrow-up"></i></a>
+        class="fa-solid fa-arrow-up"></i></a>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 <script src="assets/js/main.js"></script>
